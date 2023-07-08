@@ -94,9 +94,85 @@ nav li a{
      margin-bottom: 20px;
 }
 /* main section  */
+main{
+    max-width: 1140px;
+    margin:0 auto;
+}
+/* about */
 .about-us{
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
     margin:130px 0px;
+    text-align: center;
+}
+.about-title{
+    color: #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+.about-descreption{
+    color:#757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.about-info-containar{
+    display: flex;
+    margin-right: 50px;
+    justify-content:space-around;
+    margin-top: 30px;
+}
+.info-descreption{
+    color: #757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+}
+.about-info{
+    text-align: center;
+}
+/* what i do */
+#what-id-do-descrption{
+    padding:30px 150px;
+}
+.skils-containar{
+    display: flex;
+    justify-content: space-around;
+    background:#D1D1D1
+}
+.skills{
+    width: 267px;
+    border: 1px solid#ddd;
+    text-align: justify;
+    padding:30px;
+    background-color: #fff;
+    margin:20px;
+    border:none;
+    border-radius: 10px;
+    
+}
+.skill-title{
+    color:  #181818;
+    font-family: Open Sans;
+    font-size: 20px;
+   margin:10px 0px;
+    font-weight: 700;
+   
+}
+.skill-description{
+    color:#757575;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
 }
