@@ -284,11 +284,27 @@ font-weight: 400;
 line-height: 28px;
     margin-bottom: 20px;
 }
-.hide{
-    display: none;
-}
+
 @media screen and (max-width:570px) {
-    .skils-containar,.resume-conatainer{
+    .header{
+        background-image: none;
+    }
+    .bannar, nav{
+        flex-direction: column;
+        padding:10px;
+    }
+    .bannar-imag{
+        width: 100%;
+    }
+    nav>ul{
+        flex-direction:column;
+        gap: 10px;
+    }
+    .btn-prymary{
+        margin-bottom: 10px;
+    }
+   
+    .skils-containar,.resume-conatainer,.bannar{
        flex-direction: column;
        align-items: center;
        justify-content: center;
@@ -303,9 +319,9 @@ line-height: 28px;
         width:100%;
      }
     #what-id-do-descrption{
-           padding: 50px;
+           padding:20px;
     }
-    .about-us{
+    .about-us,.bannar{
         padding:20px;
         
     }
