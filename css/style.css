@@ -305,9 +305,17 @@ line-height: 28px;
     #what-id-do-descrption{
            padding: 50px;
     }
+    .about-us{
+        padding:20px;
+        
+    }
+    .about-info-containar{
+        flex-direction:column;
+        margin:0px;
+    }
     footer{
         flex-direction: column;
-        padding:0;
+        padding:20px;
         align-items: center;
         justify-content: center;
         gap:35px;
@@ -325,6 +333,11 @@ line-height: 28px;
         width:auto;
        
      }
+     .about-info-containar{
+        flex-direction:column;
+        margin:0px;
+        line-height: 35px;
+    }
      .resume-colum{
         text-align: center;
      }
@@ -355,5 +368,9 @@ line-height: 28px;
     }
     footer{
           padding:20px;
+    }
+    .about-info-containar{
+       
+        gap:30px;
     }
 }
